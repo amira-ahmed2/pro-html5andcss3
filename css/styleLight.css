@@ -1,0 +1,171 @@
+body {
+  color: #616262;
+  background-color: #f8f9fa;
+}
+
+.head_color {
+  background-color: #ffffff;
+}
+
+.link_color {
+  color: #616262;
+  font-weight: bold;
+}
+
+#parallelogram {
+  height: 172%;
+  width: 111%;
+  transform: rotate(327deg);
+  left: -83%;
+  top: -50%;
+  background-color: #56d2d2;
+  z-index: 2;
+}
+
+.nav {
+  z-index: 3;
+  background-color: #f8f9fa;
+}
+.nav li a.active,
+.nav li a:hover {
+  color: #56d2d2 !important;
+}
+
+.img {
+  height: calc(100vh - 176px) !important;
+  margin-top: 40px;
+  z-index: 2;
+  background-image: url("../image/WhatsApp Image 2022-06-16 at 1.29.54 PM.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2em;
+}
+
+.imgcircle {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.h1 {
+  color: #56d2d2;
+}
+
+.para {
+  color: #616262;
+}
+
+#scrollspyAbout,
+.portf {
+  background-color: #ffffff;
+}
+
+.about div div label {
+  color: #56d2d2;
+  padding-right: 2em;
+}
+.about div div p {
+  color: #616262;
+}
+
+div h6 {
+  color: #616262;
+}
+div .prog_bady {
+  width: 70%;
+  height: 1rem;
+  background-color: #eff2f2;
+  height: 1em !important;
+}
+div .prog_color {
+  background-color: #56d2d2;
+}
+div span {
+  font-weight: bold;
+  color: #616262;
+}
+
+.cards .cardserv {
+  background-color: #f8f9fa;
+}
+.cards .cardserv i {
+  color: #56d2d2;
+  font-size: 4em;
+  margin-left: 2%;
+}
+.cards .cardserv p {
+  color: #616262;
+  font-size: 1.2em;
+}
+@keyframes myAnim {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.cards .cardserv:hover {
+  background: linear-gradient(107deg, rgb(118, 215, 215) 0%, rgb(67, 208, 208) 46%, rgb(97, 98, 98) 100%);
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.cards .cardserv:hover i,
+.cards .cardserv:hover h5,
+.cards .cardserv:hover p {
+  color: #ffffff;
+}
+
+@keyframes myAnim2 {
+  0% {
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: scale(1.2);
+    transform: rotate(2deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+.card_img:hover {
+  animation: myAnim2 1s ease 0s 1 normal forwards;
+}
+
+.conus p,
+.conus h2 {
+  color: #616262;
+}
+.conus i {
+  color: #56d2d2;
+  font-size: 1em;
+  margin-left: 2%;
+}
+
+.from1 input[type=text],
+.from1 input[type=email],
+.from1 textarea {
+  color: #616262;
+  font-size: medium;
+  border: 1px solid #56d2d2;
+  margin-bottom: 1em;
+  transition: all 0.35s ease-in-out;
+}
+.from1 input:focus,
+.from1 textarea:focus {
+  border: 1px solid #616262;
+}
+.from1 button {
+  color: #616262;
+  background-color: #56d2d2;
+  border: 1px solid #56d2d2;
+  transition: all 0.5s ease-in-out;
+}
+.from1 button:hover {
+  background-color: transparent;
+  color: #56d2d2;
+}
+
+/*# sourceMappingURL=styleLight.css.map */

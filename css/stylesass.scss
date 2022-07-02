@@ -1,0 +1,194 @@
+$fontColor:#56d2d2;
+$colorGray:#616262;
+$colorLitgray:#eff2f2;
+$whiteColor:#ffffff;
+$wiblackColor:#191919;
+$colortitle: rgb(0, 0, 0);
+$colorbg:#f8f9fa;
+$colorlineargradient: linear-gradient(107deg, rgba(118, 215, 215, 1) 0%, rgba(67, 208, 208, 1) 46%, rgba(97, 98, 98, 1) 100%);
+body {
+    color: $colorGray;
+    background-color: $colorbg;
+}
+
+.head_color {
+    background-color: $whiteColor;
+}
+
+.link_color {
+    color: $colorGray;
+    font-weight: bold;
+}
+
+#parallelogram {
+    height: 172%;
+    width: 111%;
+    transform: rotate(327deg);
+    left: -83%;
+    top: -50%;
+    background-color: #56d2d2;
+    z-index: 2;
+}
+
+.nav {
+    z-index: 3;
+    background-color: $colorbg;
+    li {
+        a.active,
+        a:hover {
+            color: $fontColor !important;
+        }
+    }
+}
+
+.img {
+    height: calc(100vh - 176px) !important;
+    margin-top: 40px;
+    z-index: 2;
+    background-image: url("../image/WhatsApp Image 2022-06-16 at 1.29.54 PM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+}
+
+.imgcircle {
+    width: 50%;
+    border-radius: 100%;
+}
+
+.h1 {
+    color: $fontColor;
+}
+
+.para {
+    color: $colorGray;
+}
+
+#scrollspyAbout,
+.portf {
+    background-color: $whiteColor;
+}
+
+.about {
+    div {
+        div {
+            label {
+                color: $fontColor;
+                padding-right: 2em;
+            }
+            p {
+                color: $colorGray;
+            }
+        }
+    }
+}
+
+div {
+    h6 {
+        color: $colorGray;
+    }
+    .prog_bady {
+        width: 70%;
+        height: 1rem;
+        background-color: $colorLitgray;
+        height: 1em !important;
+    }
+    .prog_color {
+        background-color: $fontColor;
+    }
+    span {
+        font-weight: bold;
+        color: $colorGray;
+    }
+}
+
+.cards {
+    .cardserv {
+        background-color: $colorbg;
+        i {
+            color: $fontColor;
+            font-size: 4em;
+            margin-left: 2%;
+        }
+        p {
+            color: $colorGray;
+            font-size: 1.2em;
+        }
+    }
+    @keyframes myAnim {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.1);
+        }
+    }
+    .cardserv:hover {
+        background: $colorlineargradient;
+        animation: myAnim 1s ease 0s 1 normal forwards;
+        i,
+        h5,
+        p {
+            color: $whiteColor;
+        }
+    }
+}
+
+@keyframes myAnim2 {
+    0% {
+        transform: scale(1);
+        transform: rotate(0deg);
+    }
+    70% {
+        transform: scale(1.2);
+        transform: rotate(2deg);
+        opacity: .5;
+    }
+    100% {
+        transform: scale(1);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.card_img:hover {
+    animation: myAnim2 1s ease 0s 1 normal forwards;
+}
+
+.conus {
+    p,
+    h2 {
+        color: $colorGray;
+    }
+    i {
+        color: $fontColor;
+        font-size: 1em;
+        margin-left: 2%;
+    }
+}
+
+.from1 {
+    input[type=text],
+    input[type=email],
+    textarea {
+        color: $colorGray;
+        font-size: medium;
+        border: 1px solid $fontColor;
+        margin-bottom: 1em;
+        transition: all .35s ease-in-out;
+    }
+    input:focus,
+    textarea:focus {
+        border: 1px solid $colorGray;
+    }
+    button {
+        color: $colorGray;
+        background-color: $fontColor;
+        border: 1px solid $fontColor;
+        transition: all .5s ease-in-out;
+    }
+    button:hover {
+        background-color: transparent;
+        color: $fontColor;
+    }
+}
